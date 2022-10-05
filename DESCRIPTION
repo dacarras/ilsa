@@ -4,7 +4,7 @@ Title: What the Package Does (Title Case)
 Version: 0.1.0
 Author: dacarras
 Maintainer: The package maintainer <dacarras@uc.cl>
-Description: Collection of functions
+Description: Collection of functions and data examples of ilsa studies
 License:GPL-3
 Encoding: UTF-8
 LazyData: true
