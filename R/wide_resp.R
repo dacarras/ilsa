@@ -38,7 +38,7 @@ wide_resp <- function(x){
   # histograms
   get_hist <- function(x){
     wide_table <- x %>%
-      r4sda::remove_labels() %>%
+      ilsa::remove_labels() %>%
       summarise_all(list(
         hist = ~skimr::inline_hist(.)
       ))
